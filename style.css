@@ -1,0 +1,30 @@
+/* Add these styles */
+.wax-seal {
+    width: 60px;
+    height: 60px;
+    background: url('wax-seal.png') no-repeat center/contain;
+    margin: 1rem auto;
+    filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.2));
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    background: #a83f39;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(168,63,57,0.3);
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
